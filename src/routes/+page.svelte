@@ -4,7 +4,7 @@
 
     let notes = [
         {
-            url: "https://fib.rip/lecture-notes/LICENSE.txt",
+            url: "https://gh.fib.rip/lecture-notes/LICENSE.txt",
             number: "CS220",
             term: "Fall 2022",
             title: "Applied Discrete Math",
@@ -18,7 +18,8 @@
     <div id="notes-header">
         <header id="notes-title">Lecture Notes</header>
         <span class="text-light"
-            >(see <a href="https://fib.rip/lecture-notes/LICENSE.txt">LICENSE</a
+            >(see <a href="https://gh.fib.rip/lecture-notes/LICENSE.txt"
+                >LICENSE</a
             >)</span
         >
     </div>
