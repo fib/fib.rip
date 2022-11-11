@@ -4,7 +4,7 @@
 
     let notes = [
         {
-            url: "https://gh.fib.rip/lecture-notes/LICENSE.txt",
+            url: "https://gh.fib.rip/lecture-notes/cs220/notes.pdf",
             number: "CS220",
             term: "Fall 2022",
             title: "Applied Discrete Math",
