@@ -80,6 +80,6 @@ a:hover {
     }
 
     #main {
-        min-width: 0;
+        min-width: 95%;
     }
 }
