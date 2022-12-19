@@ -17,11 +17,6 @@
 <div id="notes">
     <div id="notes-header">
         <header id="notes-title">Lecture Notes</header>
-        <span class="text-light"
-            >(see <a href="https://gh.fib.rip/lecture-notes/LICENSE.txt"
-                >LICENSE</a
-            >)</span
-        >
     </div>
     {#each notes as note}
         <NotesCard {...note} />
