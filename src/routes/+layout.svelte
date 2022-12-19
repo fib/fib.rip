@@ -1,22 +1,23 @@
 <script>
     import "../app.css";
     import { browser } from "$app/environment";
+    import { onMount } from "svelte";
 
-    if (browser)
-        setTimeout(() => document.body.classList.remove("preload"), 200);
-
-    let themeEmoji = "🌚";
-
-    if (browser) {
+    onMount(() => {
         if (localStorage.getItem("darkTheme") == "true") {
             toggleTheme();
         }
-    }
+
+        document.body.classList.remove("preload");
+    });
+
+    let themeEmoji = "🌚";
 
     function toggleTheme() {
         document.documentElement.classList.toggle("dark");
 
         const darkTheme = document.documentElement.classList.contains("dark");
+        console.log(darkTheme);
         if (browser) localStorage.setItem("darkTheme", String(darkTheme));
         themeEmoji = darkTheme ? "🌞" : "🌚";
     }
